@@ -1,1 +1,5 @@
 # CUDA-Parallelizing-ML-Algorithms
+
+With increasing demand of machine learning tools in the recent times, it has become necessary to produce efficient and accurate machine learning models. The large amount of data available in today’s world has made this goal quite achievable. Therefore, parallel machine learning has become an increasingly pressing problem. 
+
+In this project, the possibility of parallelizing the training phase of machine learning is explored. Parallelization is implemented using Nvidia’s CUDA API. Linear Regression model is trained parallely using batch gradient and stochastic gradient descents. In batch gradient descent, the computational part involving matrix multiplication is parallelized. The dataset in divided into several batches and each batch is executed parallely for the stochastic gradient descent. The model is trained for the “Million Songs Dataset (UCI datasets)”. The speed-up and the CPU and GPU utilizations are recorded and a comparative study is provided for the serial and parallel implementations.
